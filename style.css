@@ -1,0 +1,115 @@
+.container{
+    max-width : 1080px;
+    margin : 20px auto;
+    background : rgba(255, 198, 129);
+    overflow : hidden;
+    padding : 10px;
+}
+.header{
+    color: white;
+    font-family: 'Brush Script MT';
+    text-align: center;
+    font-size: 60px;
+    border : 1px solid black;
+    padding : 10px;
+    margin : 10px;
+}
+h3{
+    color: white;
+    font-family: 'Brush Script MT';
+    border : 1px solid #dedede;
+    padding : 10px;
+    margin : 10px;
+    background : rgb(255, 187, 0);
+    text-align: center;
+}
+h2{
+    color: white;
+    font-family: 'Consolas';
+    border : 1px solid #dedede;
+    padding : 10px;
+    margin : 10px;
+    background : black;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+.left{
+    width : 250px;
+    border : 1px solid #dedede;
+    padding : 10px;
+    margin : 10px;
+    float : left;
+    background-color: rgb(255, 187, 0);
+    }
+.left ul{
+    list-style-type : none;
+    }
+.left ul li{
+    display : block;
+    }
+.left ul li a{
+    display :block;
+    border-bottom : 1px solid #dedede;
+    margin-bottom : 10px;
+    padding : 10px 5px;
+    color : black;
+    text-decoration: none;
+    }
+.left ul li a:hover{
+    color:#461AF3;
+    }
+.middle{
+    width : 500px;
+    border : 1px solid black;
+    padding : 10px;
+    margin : 10px;
+    float : left;
+    background-color: yellow;
+    }
+.middle img{
+    max-width : 100%;
+    height : auto;
+    }
+.middle a{
+    font-weight:bold;
+    text-align: center;
+    }
+
+.right{
+    width : 200px;
+    border : 1px solid #dedede;
+    padding : 10px;
+    margin : 10px;
+    float : left;
+    background-color: rgb(255, 187, 0);
+    }
+.right ul{
+    list-style-type : none;
+    }
+.right ul li{
+    display : block;
+    }
+.right ul li a{
+    display :block;
+    border-bottom : 1px solid #dedede;
+    margin-bottom : 10px;
+    padding : 10px 5px;
+    color: black;
+    }
+.right ul li a:hover{
+    color:#461AF3;
+    }
+.footer{
+    clear : both;
+    border : 1px solid #dedede;
+    padding : 15px;
+    margin : 10px;
+    background :rgb(255, 187, 0);
+    text-align: center;
+}
+body{
+    background: url('img/bg.jpg');
+    background-repeat: no-repeat;
+}
